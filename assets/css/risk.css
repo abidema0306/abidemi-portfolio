@@ -25,7 +25,7 @@ h1{
 	
 }
 header{
-	background-image: url('/images/risk3.png');
+	background-image: url('./images/risk3.png');
 	width: 100%;
 	padding: 3em 0em 3em 0em;
 	border-bottom: #0e0522 4px solid;
