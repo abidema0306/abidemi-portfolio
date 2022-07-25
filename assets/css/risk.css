@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 18px;
+}
+body{
+
+    background-image: linear-gradient(#9b88c4,#e1d2ff , #703fd2);
+	background-attachment: fixed;
+
+
+}
+@media screen and (max-width: 600px) {
+	body {
+	  background-image:linear-gradient(#0e0522,#7940ea , #4d4460);
+	  color: white;
+	}
+  }
+h1{
+	color:  #f4d1fb;
+	font-size: 3.3rem; 
+	text-align:center;
+	
+}
+header{
+	background-image: url('/images/risk3.png');
+	width: 100%;
+	padding: 3em 0em 3em 0em;
+	border-bottom: #0e0522 4px solid;
+	margin-bottom: 3em;
+}
+@media screen and (max-width: 600px) {
+	header{
+		background-image: none;
+		
+	}
+}
+
+h2{
+	font-size: 1.8em;
+}
+
+
+#unit section h5{
+    display: contents;
+descent-override:normal ;
+font-family:"Martel";
+font-weight: 200;
+font-size: 1.01rem;
+color: #161f32; 
+}
+#unit section a{
+    text-align: left;
+}
+#unit section a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#unit section:target h5{
+    display: block;
+
+}
+
+#first-el section h4{
+    display: none;
+    text-transform: initial;
+}
+#first-el section h4{
+    text-decoration: none;
+}
+#first-el section a:hover{
+    text-decoration: underline;
+}
+#first-el section:target h4{
+    display: inline;
+}
+
+#second-el section h4{
+    display: none;
+    text-transform: initial;
+}
+#second-el section h4{
+    text-decoration: none;
+}
+#second-el section a:hover{
+    text-decoration: underline;
+}
+#second-el section:target h4{
+    display: block;
+}
+table, th, td{
+	border: solid black 1px;
+}

@@ -1,0 +1,851 @@
+*{
+     padding:12px;
+     margin: 12px;
+}
+body{
+    font-size: 1.1em;
+    font-family: "Roboto flex";
+    font-weight: 100px;
+    background-image: linear-gradient(#9b88c4,#e1d2ff , #703fd2);
+}
+.header{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.drop-btn {
+    background-color: transparent;
+    color : white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+  color: black;
+  padding: 0.7em 1em;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.content:hover .dropdown-content {
+  display: block;
+}
+
+.content:hover .dropbtn {
+  background-color: #3e8e41;
+}
+  /*unit 1*/ 
+#begin section h5{
+    display: contents;
+    descent-override: normal;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 0.9rem;
+    color: #161f32; 
+}
+#frontier{
+    border-top: #161f32 solid 2px;
+    border-top-width: 5px;
+    
+}
+#visual{
+    padding-top: 1.8em;
+    position: relative;
+}
+#begin section:target h5{
+    display: block;
+}
+#begin section a{
+    text-align: left;
+    text-decoration: none;
+    color: #161f32;
+
+}
+#basic section ol{
+    display: none;
+    text-transform: initial;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+}
+#basic section a:hover{
+    text-decoration: underline;
+    color: rgba(101, 42, 8, 0.482);
+}
+#basic section:target ol{
+    display: block;
+}
+#collaboration section ol{
+    display:none;
+    text-transform: initial;
+    font-size: 1.01rem;
+}
+#collaboration section a:hover{
+    text-decoration: underline;
+}
+#collaboration section:target ol{
+    display: block;
+}
+#learning section ol{
+    display: none;
+    text-transform: initial;
+    line-height:1.5em ;
+}
+#learning section a:hover{
+    text-decoration: underline;
+}
+#learning section:target ol{
+    display: inline;
+}
+#paper section h3{
+    display: none;
+}
+#paper section a:hover{
+    text-decoration: underline;
+}
+#paper section:target h3{
+    display: block;
+}
+#begin{
+    float: right;
+    display:inline-flex;
+}  
+img{
+    border-radius: 15px;
+    padding-left: 1.875em;
+}
+#none{
+    font-family:'Martel';
+    font-weight: 300px;
+    font-size: 1.5rem;
+    margin: 0em;
+    padding: 0em;
+    color: #161f32;
+}
+
+/*unit 2*/
+#item2 section h5{
+    display: contents;
+descent-override:normal ;
+font-family:"Martel";
+font-weight: 200;
+font-size: 1.01rem;
+color: #161f32; 
+}
+#item2 section a{
+    text-align: left;
+}
+#item2 section a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#item2 section:target h5{
+    display: block;
+
+}
+#objective section h4{
+    display: none;
+    text-transform: initial;
+    font-size: 1.0rem;
+
+}
+#objective section a:hover{
+    text-decoration: underline;
+
+}
+#objective section:target h4{
+    display: inline;
+}
+#sum section p{
+    display: none;
+}
+#sum section a:hover{
+    text-decoration: underline;
+}
+#sum section:target p{
+    display: block;
+}
+#risks section h4{
+    display: none;
+    font-size: 1.0rem;
+}
+#risks section a:hover{
+    text-decoration: underline;
+}
+#risks section:target h4{
+    display: block;
+}
+#dread section p table{
+    display: none;
+}
+#dread section a:hover{
+    text-decoration: underline;
+}
+#dread section:target p table{
+    display: block;
+}
+#force section p{
+    display: none;
+}
+#force section a:hover{
+    text-decoration: underline;
+}
+#force section:target p{
+    display: block;
+}
+#med section h4{
+    display: none;
+    font-size: 1.0rem;
+}
+#med section:target  h4{
+    display: block;
+}
+#some section h3{
+    display: none;
+}
+#some section a:hover{
+    text-decoration: underline;
+}
+#some section:target h3{
+    display: block;
+}
+#any section h3{
+    display: none;
+}
+#any section a:hover{
+    text-decoration: underline;
+}
+#any section:target h3{
+    display: block;
+}
+#rate section h3{
+    display: none;
+}
+#rate section a:hover{
+    text-decoration: underline;
+}
+#rate section:target h3{
+    display: block;
+}
+/*Unit 3*/
+
+#mid section h5{
+display: contents;
+descent-override:normal ;
+font-family:"Martel";
+font-weight: 200;
+font-size: 1.01rem;
+color: #161f32; 
+}
+#mid section a{
+    text-align: left;
+   
+    text-decoration: none;
+}
+#mid section a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+
+#mid section:target h5{
+display: block;
+    
+}
+#intro p{
+    text-transform:initial;
+    display: none;
+}
+#intro p a{
+    text-align: left;
+    text-decoration: none;
+}
+#intr section:target p{
+display: inline;
+text-align: center;
+}
+
+#fund section ol{
+    display: none;
+    text-transform: initial;
+}
+#fund section ol{
+    text-align: left;
+    text-decoration: none;
+}
+#fund section a:hover{
+    text-decoration: underline;
+}
+#fund section:target ol{
+    display: inline;
+}
+
+#practical section p  {
+ display: none;
+ text-transform: initial;
+}
+#practical section a:hover{
+text-decoration: underline;
+}
+#practical section:target p {
+    display: block;
+}
+
+#listing section ol{
+    display: none ;
+    text-transform: initial;
+}
+#listing section a :hover{
+    text-decoration: underline;
+}
+#listing section:target ol{
+    display: block;
+}
+#formative section h3{
+    display: none;
+    text-transform: initial;
+}
+#formative section a:hover{
+text-decoration: underline;
+
+}
+#formative section:target h3{
+    display: block;
+}
+#references section ol{
+    display: none;
+    text-transform: initial;
+}
+#references section a:hover{
+    text-decoration: underline;
+    color: darkorange;
+}
+#references section:target ol{
+    display: block;
+}
+#ping section h3{
+    display: none;
+}
+#ping section a:hover{
+    text-decoration: underline;
+}
+#ping section:target h3{
+    display: block;
+}
+/*unit 4*/
+#network section h5{
+    display: contents;
+    font-family:"Martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+    color: #161f32; 
+}
+#network section a:hover{
+    text-decoration: underline;
+    color: darkslategrey;
+}
+#network section:target h5{
+    display: block;
+}
+#network section a{
+    text-align: left;
+}
+#trace section p{
+    display: none;
+    text-transform: initial;
+}
+#trace section:target p{
+    display: block;
+}
+#trace section a:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+#performance section ol{
+     display: none;
+     text-transform: initial;
+}
+#performance section a:hover{
+    text-decoration: underline;
+    color: fuchsia;
+}
+#performance section:target ol{
+    display: block;
+}
+#scan section h4{
+    display: none;
+    line-height: 1.875em;
+    font-family:"Martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+    color: #161f32; 
+}
+#scan section a:hover{
+    text-decoration: underline;
+    color: darkcyan;
+}
+#scan section:target h4{
+    display: block;
+}
+#person section ul{
+    display: none;
+    text-transform: initial;
+}
+#person section a:hover{
+    text-decoration: underline;
+    color: coral;
+}
+#person section:target ul{
+    display: block;
+}
+/*Unit 6*/
+#evaluation section ul{
+    display: contents;
+    line-height: 1.875em;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+    text-transform: initial;
+    text-align: left;
+}
+#evaluation section a:hover{
+    text-decoration: underline;
+    color: indigo;
+}
+#evaluation section:target ul{
+    display: block;
+}
+#ons section h3{
+    display: none;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+    text-transform: initial;
+}
+#ons section a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+#ons section:target h3{
+    display: block;
+}
+#mins section h3{
+    display: none;
+    text-transform: initial;
+}
+#mins section:target h3{
+    display: block;
+}
+#blog section ol{
+    display: none;
+    text-transform: initial;
+}
+#blog section a:hover{
+    text-decoration: underline;
+}
+#blog section:target ol{
+    display: block;
+}
+#meet section p{
+    display: none;
+    text-transform: initial;
+}
+#meet section a:hover{
+    text-decoration: underline;
+}
+#meet section:target p{
+    display: block;
+}
+#exercise section h4{
+    display: none;
+}
+#exercise section a:hover{
+    text-decoration: underline;
+}
+#exercise section:target h4{
+    display: block;
+}
+/*unit 7*/
+#gather section ul{
+    display: contents;
+    line-height: 1.875em;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01em;
+   
+    text-align: left;
+}
+#gather section a:hover{
+    text-decoration: underline;
+}
+#gather section:target ul{
+    display: block;
+
+}
+#explain section h4{
+    display: none;
+}
+#explain  section a:hover{
+    text-decoration: underline;
+}
+#explain section:target h4{
+    display: block;
+}
+#port section h4{
+    display: none;
+}
+#port section a:hover{
+    text-decoration: underline;
+}
+#port section:target h4{
+    display: block;
+}
+#reflect section h4{
+    display: none;
+}
+#reflect section a:hover{
+    text-decoration: underline;
+}
+#reflect section:target h4{
+    display: block;
+}
+/*Unit 8*/
+#hack section h5{
+    display: contents;
+    descent-override:normal ;
+    font-family: "Roboto flex"; 
+    font-weight: 200px;
+    font-size: 1.0rem;
+    line-height: 1.875em;
+}
+#hack section a:hover{
+    text-decoration: underline;
+}
+#hack section:target h5{
+    display: block;
+}
+#compro section p{
+    display: none;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+    line-height: 1.56em;
+
+    margin-left: 0.9em;
+}
+#compro section:target p{
+    display: block;
+}
+#payment section h4{
+    display: none;
+    line-height: 1.875em;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+}
+#payment section a:hover{
+    text-decoration: underline;
+}
+#payment section:target h4{
+    display: block;
+}
+#guide section h6{
+    display: none;
+    line-height: 1.875em;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+}
+#guide section:target h6{
+    display: block;
+}
+#stand section h3{
+    display: none;
+}
+#stand section a:hover{
+    text-decoration: underline;
+}
+#stand section:target h3{
+display: block;
+}
+/*Unit 9*/
+#system section h5{
+    display: contents;
+    descent-override:normal ;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+}
+#system section a:hover{
+    text-decoration: underline;
+}
+#system section:target h5{
+    display: block;
+}
+#aid section h4{
+    display: none;
+    text-transform: initial;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+}
+#aid section:target h4{
+    display: block;
+}
+#aid section a:hover{
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+#security section h4{
+    display: none;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+    line-height:1.875em;
+}
+#security section:target h4{
+    display: block;
+}
+#security section a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+#peer section h4{
+    display: none;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+    line-height:1.875em;
+}
+#peer section:target h4{
+    display: block;
+}
+#import section h3{
+    display: none;
+}
+#import section a:hover{
+    text-decoration: underline;
+}
+#import section:target h3{
+    display: block;
+}
+/*Unit 10*/
+#mitigate section h5{
+    display: contents;
+    descent-override:normal ;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+}
+#mitigate section a:hover{
+    text-decoration: underline;
+}
+#mitigate section:target h5{
+    display: block;
+}
+#detect section p{
+    display: none;
+    text-transform: initial;
+}
+#detect section a:hover{
+    text-decoration: underline;
+}
+#detect section:target p{
+    display: block;
+}
+#comp section h4{
+    display: none;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+}
+#comp section a:hover{
+    text-decoration: underline;
+}
+#comp section:target h4{
+display: block;
+}
+#adobe section ol{
+    display: none;
+    text-transform: initial;
+}
+#adobe section a:hover{
+    text-decoration: underline;
+}
+#adobe section:target ol{
+    display: block;
+}
+#addition section table{
+    display: none;
+    text-transform: initial;
+}
+#addition section a:hover{
+    text-decoration: underline;
+}
+#addition section:target table{
+    display: block;
+}
+#famous section h3{
+    display: none;
+}
+#famous section a:hover{
+text-decoration: underline;
+}
+#famous section:target h3{
+    display: block;
+}
+/*Unit 11*/
+#trends section h5{
+    display: contents;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+    list-style: disc;
+}
+#trends section a{
+    text-align: left;
+}
+#trends section a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+#trends section:target h5{
+    display: block;
+}
+
+#technology section p{
+    display: none;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+
+}
+#technology section a:hover{
+    text-decoration: underline;
+}
+#technology section:target p{
+    display: block;
+}
+#solution section ol{
+    display: none;
+}
+#solution section a:hover{
+    text-decoration: underline;
+    color: gold;
+}
+#solution section:target ol{
+    display: block;
+}
+#act section h3{
+    display: none;
+    line-height: 1.875em;
+}
+#act section a:hover{
+    text-decoration: underline;
+    color: green;
+}
+#act section:target h3{
+    display: block;
+}
+#survey section ol{
+    display: none;
+}
+#survey section a:hover{
+    text-decoration: underline;
+    color: rgb(41, 4, 16);
+}
+#survey section:target ol{
+    display: block;
+}
+colgroup{
+    border: 1.5em;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#confirm section h2{
+    display: none;
+}
+#confirm section a:hover{
+    text-decoration: underline;
+}
+#confirm section:target h2{
+    display: block;
+}
+
+.stay{
+    font-family:'Martel';
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    color: #161f32;
+}
+/*Unit 12*/
+#focus section h5{
+    display: contents;
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+}
+#focus section a:hover{
+    text-decoration: underline;
+    color: #184ab5;
+}
+#focus section:target h5{
+    display: block;
+}
+#format section h4{
+ display: none;   
+ font-family:"martel";
+ font-weight: 200;
+ font-size: 1.01rem;
+}
+#format section a:hover{
+    text-decoration: underline;
+    color: #de99be;
+}
+#format section:target h4{
+    display: contents;
+}
+#step section p{
+    display: none;   
+    
+    font-size: 1.01rem;
+}
+#step section a:hover{
+    text-decoration: underline;
+    color: #de99be;
+}
+#step section:target p{
+    display: contents;
+}
+#daot section h3{
+    display: none;   
+    font-family:"martel";
+    font-weight: 200;
+    font-size: 1.01rem;
+   }
+   #daot section a:hover{
+       text-decoration: underline;
+       
+       color: #e4c6d6;
+   }
+   #daot section:target h3{
+       display: contents;
+   }
